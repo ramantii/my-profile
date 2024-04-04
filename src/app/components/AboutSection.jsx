@@ -42,25 +42,25 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
        <li>
-        <Image src="/images/opsi.jpeg" alt="Award-1" width={width} height={height} />
+        <Image src="/images/opsi.jpeg" alt="Award-1"  />
       </li>
       <li>
-        <Image src="/images/juara1tradisi.jpeg" alt="Award-2" width={width} height={height} />
+        <Image src="/images/juara1tradisi.jpeg" alt="Award-2"  />
       </li>
       <li>
-        <Image src="/images/juara2sd.jpeg" alt="Award-3" width={width} height={height} />
+        <Image src="/images/juara2sd.jpeg" alt="Award-3"  />
       </li>
       <li>
-        <Image src="/images/juara2ub.jpeg" alt="Award-4" width={width} height={height} />
+        <Image src="/images/juara2ub.jpeg" alt="Award-4"  />
       </li>
       <li>
-        <Image src="/images/juara2uii.jpeg" alt="Award-5" width={width} height={height} />
+        <Image src="/images/juara2uii.jpeg" alt="Award-5"  />
       </li>
       <li>
-        <Image src="/images/juara3unipma.jpeg" alt="Award-6" width={width} height={height} />
+        <Image src="/images/juara3unipma.jpeg" alt="Award-6"  />
       </li>
       <li>
-        <Image src="/images/bestuns.jpeg" alt="Award-7" width={width} height={height} />
+        <Image src="/images/bestuns.jpeg" alt="Award-7"  />
       </li>
       </ul>
     ),
@@ -79,7 +79,7 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
