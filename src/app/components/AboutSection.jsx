@@ -41,26 +41,26 @@ const TAB_DATA = [
     id: "awards",
     content: (
       <ul className="list-disc pl-2">
-      <li>
-        <img src="/images/opsi.jpeg" alt="Award-1"/>
+       <li>
+        <Image src="/images/opsi.jpeg" alt="Award-1" width={width} height={height} />
       </li>
       <li>
-        <img src="/images/juara1tradisi.jpeg" alt="Award-2" />
+        <Image src="/images/juara1tradisi.jpeg" alt="Award-2" width={width} height={height} />
       </li>
       <li>
-        <img src="/images/juara2sd.jpeg" alt="Award-3" />
+        <Image src="/images/juara2sd.jpeg" alt="Award-3" width={width} height={height} />
       </li>
       <li>
-        <img src="/images/juara2ub.jpeg" alt="Award-4" />
+        <Image src="/images/juara2ub.jpeg" alt="Award-4" width={width} height={height} />
       </li>
       <li>
-        <img src="/images/juara2uii.jpeg" alt="Award-5" />
+        <Image src="/images/juara2uii.jpeg" alt="Award-5" width={width} height={height} />
       </li>
       <li>
-        <img src="/images/juara3unipma.jpeg" alt="Award-6" />
+        <Image src="/images/juara3unipma.jpeg" alt="Award-6" width={width} height={height} />
       </li>
       <li>
-        <img src="/images/bestuns.jpeg" alt="Award-7" />
+        <Image src="/images/bestuns.jpeg" alt="Award-7" width={width} height={height} />
       </li>
       </ul>
     ),
