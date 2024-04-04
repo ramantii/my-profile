@@ -83,7 +83,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            Hi, I'm a multifaceted individual with a passion for the dynamic intersection 
+            Hi, I am a multifaceted individual with a passion for the dynamic intersection 
             of data science, product management, project management, and software development. 
             My journey in the tech world has been driven by a relentless curiosity and a thirst for knowledge
             in these diverse domains. I thrive on the challenges and opportunities each discipline presents. 
