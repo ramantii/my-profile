@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import EmailIcon from "../../../public/email-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -62,10 +63,13 @@ const EmailSection = () => {
           <Link href="https://www.linkedin.com/in/ramanti-prajna-pratisthita-751b99192/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+          <Link href="mailto:ramanti.prajna@gmail.com">
+            <Image src={EmailIcon} alt="Email Icon" />
+          </Link>
         </div>
       </div>
       <div>
-        {emailSubmitted ? (
+        {/* {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
             Email sent successfully!
           </p>
@@ -124,7 +128,7 @@ const EmailSection = () => {
               Send Message
             </button>
           </form>
-        )}
+        )} */}
       </div>
     </section>
   );
